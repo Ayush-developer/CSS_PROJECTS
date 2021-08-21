@@ -1,0 +1,131 @@
+body{
+    background-color:#0A0C1B;
+    display:flex;
+    justify-content: center;
+    align-items:stretch;
+    height: 80vh;
+    padding:70px;
+    font-family: 'PT Sans', sans-serif;
+}
+.login{
+
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color:#1C1938;
+    flex:3;
+    border-radius:25px;
+    transform: scale(0.9);
+
+
+}
+.textuser{
+    background-color: #1C1938;
+    width: 100%;
+    border-radius: 25px;
+    
+    color: white;
+    text-align: start;
+    padding:25px;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.photos{
+    background-color: #1C1938;
+    width: 100%;
+    border-radius:25px;
+}
+.circy{
+    width: 100%;
+    height: 100%;
+    border-radius:25px;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    
+}
+.westa{
+    color:#A85FD5;
+}
+form{
+    transform:translateY(30px) scale(1.5) translateX(115px);
+    
+}
+
+
+input {
+    background-color : #1C1938;
+    color : white;
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 3.5px;
+    border-bottom-color:#A85FD5;
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+   
+
+    
+    }
+
+input::placeholder{
+    color: white;
+}
+
+
+.classpana{
+    margin-left:130px;
+    font-size: 65px;
+}
+.glassfind{
+    color:#A85FD5;
+}
+
+.signing{
+    transform:translateY(80px);
+}
+
+.sing{
+    font-size: 25px;
+    display:inline-block;
+    margin-bottom: 10px;
+    color:#A85FD5 ;
+    padding:15px 70px;
+    border-style: solid;
+    border-color: #A85FD5;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.sing:hover{
+    background-color:#A85FD5;
+    color: white;
+}
+.facebooking{
+    font-size: 20px;
+    margin-right: 20px;
+    color:#A85FD5 ;
+    padding:15px 30px;
+    border-style: solid;
+    border-color: #A85FD5;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s;
+    transform: translateY(-10px);
+}
+.facebooking:hover{
+ background-color:#A85FD5;
+ color:white;
+}
+.googling:hover{
+    background-color: #A85FD5;
+    color:white;
+}
+.googling{
+    font-size: 20px;
+    color:#A85FD5 ;
+    padding:15px 30px;
+    border-style: solid;
+    border-color: #A85FD5;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
